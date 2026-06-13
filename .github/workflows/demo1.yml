@@ -3,6 +3,7 @@ on:
   pull_request:
     types: 
       - opened
+      - synchronize
     branches: 
       - main # main
       - 'dev-*' # dev-new dev-this-is-new
